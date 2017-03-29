@@ -1,16 +1,4 @@
 <?php require_once( '../spadministrator/cms.php' ); ?>
-<cms:template title='Products' clonable='1' >
-	<cms:editable name='product_content' label='Content' type='richtext' />
-	<cms:editable name='product_thumb' label='Thumb Image'
-		crop='1'
-		type='image' 
-	/>
-	<cms:editable name='product_image' label='Image'
-		crop='1'
-		type='image' 
-	/>
-</cms:template>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -36,7 +24,7 @@
 					</div>
 					<div class="inner">
 						<ul>
-							<cms:pages masterpage='ajax/products.php' >
+							<cms:pages masterpage='products.php' >
 							<li>
 								<a href="<cms:show product_image />"></a>
 							</li>
@@ -44,9 +32,11 @@
 						</ul>
 					</div>
 					<ul class="galleryDiscription">
-						<cms:pages masterpage='ajax/products.php' >
+						<cms:pages masterpage='products.php' >
 						<li>
+							<p class="info">
 								<cms:show product_content />
+							</p>
 						</li>
 						</cms:pages>
 					</ul>

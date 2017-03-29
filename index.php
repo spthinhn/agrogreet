@@ -147,95 +147,48 @@
 				<div class="p3_plane ">
 					<div class="p3_block_1 perspective">
 						<div class="bord_2"></div>
-						<cms:pages masterpage='product.php' >
-						 	<h2><cms:show product_title /></h2>
-						 	<cms:show product_content />
-						</cms:pages>
-						 <a href="./products.html" data-image="0" class="btn btn-default mar_t_15 mar_b_1">See all products</a>		
+						<cms:editable name='products' label='Products' type='richtext'>
+							<h2>our<br>products</h2>
+							 <p class="mar_t_5">
+							  Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient.
+							 </p>
+							 <p class="">
+							  montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, 
+							  luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. 
+							 </p>
+						 <a href="./products.php" data-image="0" class="btn btn-default mar_t_15 mar_b_1">See all products</a>
+						 </cms:editable>
 					</div>
 <!-- desktop-gallery -->
 						<div class="car_div mar_t_2 desktop-only">
 			              	<div id="owl1">
-				                <div class="item active">
-		                            <div class="box">
-		                        			<div class="circ">
-		                            			<span>Lacinia fermentum</span>
-		                            		</div>
-		                        			<a href="./fruit.html" data-image="0" class=""><img src="img/gallery_prev1.jpg" alt=""></a>
-		                        	</div>
-				                </div>
+			              	<cms:pages masterpage='ajax/products.php' >
 				                <div class="item">
 		                            <div class="box">
 		                        			<div class="circ">
-		                            			<span>Praesent justo dolor</span>
+		                            			<span><cms:show k_page_title /></span>
 		                            		</div>
-		                        			<a href="./berries.html" data-image="0" class=""><img src="img/gallery_prev2.jpg" alt=""></a>
+		                        			<a href="./products.php" data-image="0" class=""><img src="<cms:show product_thumb />" alt=""></a>
 		                        	</div>
 				                </div>
-				                <div class="item">
-		                            <div class="box">
-		                        			<div class="circ">
-		                            			<span>Quisque diam lorem</span>
-		                            		</div>
-		                        			<a href="./vegetable.html" data-image="0" class=""><img src="img/gallery_prev3.jpg" alt=""></a>
-		                        	</div>
-				                </div>
-				                <div class="item">
-		                            <div class="box">
-		                        			<div class="circ">
-		                            			<span>Lacinia fermentum</span>
-		                            		</div>
-		                        			<a href="./cereals.html" data-image="0" class=""><img src="img/gallery_prev4.jpg" alt=""></a>
-		                        	</div>
-				                </div>
+			              	</cms:pages>
+				               
 			                </div>
 			               </div>
 			                <div class="clear"></div>
 <!-- mobile_gallery -->
 			            <div class="car_div mar_t_2 mobile-only">
 			              	<div id="1">
-				                <div class="item active">
-		                            <div class="box">
-		                        			<div class="circ">
-		                            			<span>Lacinia fermentum</span>
-		                            		</div>
-		                        			<a href="./fruit.html" data-image="0" class=""><img src="img/gallery_m_prev1.jpg" alt=""></a>
-
-		                        	</div>
-
-				                </div>
-				                <div class="item">
-		                            <div class="box">
-		                        			<div class="circ">
-		                            			<span>Praesent justo dolor</span>
-		                            		</div>
-		                        		<a href="./berries.html" data-image="0" class=""><img src="img/gallery_m_prev2.jpg" alt=""></a>
-		                        	
-		                            </div>		                            
-
-				                </div>
-				                <div class="item">
-		                            <div class="box">
-		                        			<div class="circ">
-		                            			<span>Quisque diam lorem</span>
-		                            		</div>
-		                        			<a href="./vegetable.html" data-image="0" class=""><img src="img/gallery_m_prev3.jpg" alt=""></a>
-
-		                        	</div>
-
-				                </div>
-				                <div class="item pad_b_m_8">
-		                            <div class="box">
-		                        			<div class="circ">
-		                            			<span>Lacinia fermentum</span>
-		                            			<div class="pic_icone"></div>
-		                            		</div>
-		                        		<a href="./cereals.html" data-image="0" class=""><img src="img/gallery_m_prev4.jpg" alt=""></a>
-		                        	
-		                            </div>		                            
-	
-				                </div>
-
+			              		<cms:pages masterpage='ajax/products.php' >
+					                <div class="item">
+			                            <div class="box">
+			                        			<div class="circ">
+			                            			<span><cms:show k_page_title /></span>
+			                            		</div>
+			                        			<a href="./products.php" data-image="0" class=""><img src="<cms:show product_thumb />" alt=""></a>
+			                        	</div>
+					                </div>
+				              	</cms:pages>
 				             </div>
 			                </div>
 			                </div>
@@ -254,69 +207,26 @@
 					
 					<div class="row pad_b_280">
 					<div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-xs-12 perspective">
+					<cms:editable name='technologies_title' label='Technologies Title' type='richtext'>
 					<h2>new technologies</h2>
 					<h3>eget tellus non erat</h3>
+					</cms:editable>
 					</div>
-					<div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-12 col-xs-12  mar_t_3 perspective">
-						<div class="p4_block_1">
-								<a href="./readmore.html" class="img_1 img-indent">
-								 <img src="img/p4_pic1.jpg" alt="" class=''>
-								 </a>
-								
-								<div class="extra-wrap pad_3">
-								 <h5>Nulla facilisi</h5>
-								 <a href="./readmore.html" class="a1">nonummy hendrerit mauris</a>
-								 <p class="">
-								  Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.
-								 </p>
-								</div>	
+					<cms:pages masterpage='ajax/technologies.php' >
+						<div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-12 col-xs-12  mar_t_3 perspective">
+							<div class="p4_block_1">
+									<a href="./technologies.php?p=<cms:show k_page_id />" class="img_1 img-indent">
+									 <img src="<cms:show technology_image />" alt="" class=''>
+									 </a>
+									
+									<div class="extra-wrap pad_3">
+									 <h5><cms:show k_page_title /></h5>
+									 <a href="./technologies.php?p=<cms:show k_page_id />" class="a1"><cms:show technology_sologan /></a>
+									 <cms:show technology_content />
+									</div>	
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-12 col-xs-12  mar_t_3 perspective">
-						<div class="p4_block_2 ">
-								<a href="./readmore.html" class="img_1 img-indent">
-								 <img src="img/p4_pic2.jpg" alt="" class=''>
-								 </a>
-								
-								<div class="extra-wrap pad_3">
-								 <h5>Aenean nec eros</h5>
-								 <a href="./readmore.html" class="a1">nonummy hendrerit mauris</a>
-								 <p class="">
-								  Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.
-								 </p>
-								</div>	
-						</div>
-					</div>
-					<div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-12 col-xs-12  mar_t_3 perspective">
-						<div class="p4_block_3 ">
-								<a href="./readmore.html" class="img_1 img-indent">
-								 <img src="img/p4_pic3.jpg" alt="" class=''>
-								 </a>
-								
-								<div class="extra-wrap pad_3">
-								 <h5>Scelerisque vitae pede</h5>
-								 <a href="./readmore.html" class="a1">nonummy hendrerit mauris</a>
-								 <p class="">
-								  Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.
-								 </p>
-								</div>	
-						</div>
-					</div>
-					<div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-12 col-xs-12  mar_t_3 perspective pad_b_8">
-						<div class="p4_block_4 ">
-								<a href="./readmore.html" class="img_1 img-indent">
-								 <img src="img/p4_pic4.jpg" alt="" class=''>
-								 </a>
-								
-								<div class="extra-wrap pad_3">
-								 <h5>Consectetuer</h5>
-								 <a href="./readmore.html" class="a1">nonummy hendrerit mauris</a>
-								 <p class="">
-								  Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.
-								 </p>
-								</div>	
-						</div>
-					</div>
+					</cms:pages>
 				</div>
 			
 			</div>		
@@ -331,51 +241,22 @@
 			    <div class="slider_wrapper">
 			        <div>
 			            <div id="camera_wrap_1">
+			            	<cms:pages masterpage='ajax/staff.php' >
 			                <div data-src="img/transper.png">
 			                	<div class="caption fadeIn">
 			                		<div class="container">
 			                		 <div class="row">
 				                		 <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0  col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12 tac">
-				                		 <div class="p5_pic"><img src="img/p5_pic1.png" alt=""></div>
+				                		 <div class="p5_pic"><img src="<cms:show staff_image />" alt=""></div>
 				                		 <p class="p2">“</p>
-				                		  <p class="p3">Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, 
-aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim.</p>
-										<div class="author">Tom James</div>
+				                		 <cms:show staff_content />
+										<div class="author"><cms:show k_page_title /></div>
 				                		 </div>
 			                		 </div>
 			                		</div>
 			                	</div>
 			                </div>
-			                <div data-src="img/transper.png">
-			                	<div class="caption fadeIn">
-			                		<div class="container">
-			                		 <div class="row">
-				                		 <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0  col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12 tac">
-				                		 <div class="p5_pic"><img src="img/p5_pic2.png" alt=""></div>
-				                		 <p class="p2">“</p>
-				                		  <p class="p3">Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, 
-aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim.</p>
-										<div class="author">Alisa James</div>
-				                		 </div>
-			                		 </div>
-			                		</div>
-			                	</div>
-			                </div>
-			                <div data-src="img/transper.png">
-			                	<div class="caption fadeIn">
-			                		<div class="container">
-			                		 <div class="row">
-				                		 <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0  col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12 tac">
-				                		 <div class="p5_pic"><img src="img/p5_pic3.png" alt=""></div>
-				                		 <p class="p2">“</p>
-				                		  <p class="p3">Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, 
-aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim.</p>
-										<div class="author">July James</div>
-				                		 </div>
-			                		 </div>
-			                		</div>
-			                	</div>
-			                </div>
+			                </cms:pages>
 			            </div>
 			        </div> 
 			    </div>
@@ -384,67 +265,88 @@ aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus
 			</div>
 			
 		</div>
-		<div data-id="contacts" id="page6">
-			<div class="bgHolder">
-				<div class="bg6"></div>	
-			</div>
-			<div class="container">
-				<div class="row mar_t_180">
-					<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-xs-3 perspective">
-						<div class="bord_4"></div>
+
+			<div data-id="contacts" id="page6">
+				<div class="bgHolder">
+					<div class="bg6"></div>	
+				</div>
+				<div class="container">
+					<div class="row mar_t_180">
+						<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-xs-3 perspective">
+							<div class="bord_4"></div>
+						</div>
+					</div>
+						
+						<div class="row">
+						<div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12 col-xs-12 perspective">
+						<cms:editable name='contacts_title' label='Contacts Title' type='richtext'>
+							<h2>Contact info</h2>
+							<h3><span>eget tellus non erat</span></h3>
+						</cms:editable>
+						</div>
+						<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12 col-xs-12  mar_t_2 perspective">
+						<h6>
+						<cms:editable name='contacts_content' label='Contacts Content' type='text'>
+						Pellentesque sed doloraliquam congue fermentum nisl. Mauris accumsan nulla. 
+						</cms:editable>
+						</h6>
+						</div>
+						</div>
+						<div class="row pad_b_280">
+						<div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12 col-xs-12  mar_t_2 perspective">
+								<form id="form-1">
+							            <div class="success-message">Contact form submitted! We will be in touch soon.</div>
+							            <label class="name animateItem4">
+							              <input type="text" placeholder="Name:" class="form-control" data-constraints="@Required @Pattern(regex=/^[a-zA-Z'][a-zA-Z-' ]+[a-zA-Z']?$/)"/>
+							              <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span>
+							            </label>
+							            <label class="email animateItem5">
+							              <input type="email" placeholder="E-mail:" class="form-control" data-constraints="@Required @Email"/>
+							              <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
+							            </label>
+							            <label class="message animateItem6">
+							              <textarea placeholder="Message:" class="form-control" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+							              <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
+							            </label>
+							            <div class="btns animateItem7"><p><a href="#" class="btn btn-default btn-link btn-special form_b_1" data-type="reset">clear</a><a href="#" class="btn btn-default btn-link btn-special form_b_2" data-type="submit">send</a></p></div>
+							        </form>
+						</div>
+						<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12 col-xs-12  mar_t_2 perspective">
+						<div class="p6_block_1">
+						 <i class="fa-home img-indent_1"></i>
+						 <h6 class= "mar_t_1">
+						 	<cms:editable name='contacts_addr' label='Contacts Address' type='text'>
+						 	8901 Marmora Road, Glasgow, D04 89GR.
+						 	</cms:editable>
+						 	</h6>
+						</div>
+						<div class="p6_block_2 mar_t_25">
+						 <i class="fa-phone img-indent_1"></i>
+						 <h6 class='mar_t_1'>
+						 	<cms:editable name='contacts_phone' label='Contacts Phone' type='text'>
+						 	+1 800 603 6035<br>+1 800 889 9898 
+						 	</cms:editable>
+						 </h6>
+						</div>
+						<div class="p6_block_3 mar_t_25">
+						 <i class="fa-envelope img-indent_1"></i>
+						 <h6 class= 'mar_t_1'>
+						 	<a href="#">
+						 	<cms:editable name='contacts_email' label='Contacts Email' type='text'>
+						 	mail@demolink.org
+						 	</cms:editable>
+						 	</a>
+
+						 	</h6>
+						</div>
+
+						</div>
 					</div>
 				</div>
-					
-					<div class="row">
-					<div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12 col-xs-12 perspective">
-					<h2>Contact info</h2>
-					<h3><span>eget tellus non erat</span></h3>
-					</div>
-					<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12 col-xs-12  mar_t_2 perspective">
-					<h6>
-					Pellentesque sed doloraliquam congue fermentum nisl. Mauris accumsan nulla. 
-					</h6>
-					</div>
-					</div>
-					<div class="row pad_b_280">
-					<div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12 col-xs-12  mar_t_2 perspective">
-							<form id="form-1">
-						            <div class="success-message">Contact form submitted! We will be in touch soon.</div>
-						            <label class="name animateItem4">
-						              <input type="text" placeholder="Name:" class="form-control" data-constraints="@Required @Pattern(regex=/^[a-zA-Z'][a-zA-Z-' ]+[a-zA-Z']?$/)"/>
-						              <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span>
-						            </label>
-						            <label class="email animateItem5">
-						              <input type="email" placeholder="E-mail:" class="form-control" data-constraints="@Required @Email"/>
-						              <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
-						            </label>
-						            <label class="message animateItem6">
-						              <textarea placeholder="Message:" class="form-control" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-						              <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
-						            </label>
-						            <div class="btns animateItem7"><p><a href="#" class="btn btn-default btn-link btn-special form_b_1" data-type="reset">clear</a><a href="#" class="btn btn-default btn-link btn-special form_b_2" data-type="submit">send</a></p></div>
-						        </form>
-					</div>
-					<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12 col-xs-12  mar_t_2 perspective">
-					<div class="p6_block_1">
-					 <i class="fa-home img-indent_1"></i>
-					 <h6 class= "mar_t_1">8901 Marmora Road, Glasgow, D04 89GR.</h6>
-					</div>
-					<div class="p6_block_2 mar_t_25">
-					 <i class="fa-phone img-indent_1"></i>
-					 <h6 class='mar_t_1'>+1 800 603 6035<br>+1 800 889 9898 </h6>
-					</div>
-					<div class="p6_block_3 mar_t_25">
-					 <i class="fa-envelope img-indent_1"></i>
-					 <h6 class= 'mar_t_1'><a href="#">mail@demolink.org</a></h6>
-					</div>
-
-					</div>
-				</div>
-			</div>
-			
+				
 
 			</div>
+		
 	</article>
 	<div id="other_pages" data-follow="location" data-type="switcher" data-flags="ajax">
 		
