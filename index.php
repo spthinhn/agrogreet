@@ -69,28 +69,29 @@
 					</div>
 				</div>
 			</div>
-		
 			<div class="slider_box">
 			    <div class="slider_wrapper">
 			        <div>
 			            <div id="camera_wrap">
-			            	<cms:pages masterpage='banner.php' >
-				                <div data-src="<cms:show banner_image />">
-				                	<div class="caption fadeIn">
-				                		<div class="container">
-				                		 <div class="row">
-					                		 <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0  col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12 tac">
-					                		  <p class="p1"><cms:show k_page_title /></p>
-					                		 </div>
-				                		 </div>
-				                		</div>
-				                	</div>
-				                </div>
-			            	</cms:pages>
+			            <cms:pages masterpage='banner.php' >
+                            <div data-src="<cms:show banner_image />">
+                                <div class="caption fadeIn">
+                                        <div class="container">
+                                         <div class="row">
+                                                 <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0  col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12 tac">
+                                                  <p class="p1"><cms:show k_page_title /></p>
+                                                 </div>
+                                         </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </cms:pages>
+
 			            </div>
 			        </div> 
 			    </div>
 			</div>
+			
 		</div>
 
 		<div data-id="about" id="page2" class=''>
@@ -116,7 +117,7 @@
 											<cms:show company_content />
 										</cms:excerptHTML>
 										
-									 	<a href="./aboutus.php" class="btn btn-default mar_t_35 mar_b_1">more about us</a>
+									 	<a href="./aboutus.php" class="btn btn-default mar_t_35 mar_b_1">Đọc thêm >></a>
 									</div>
 								</div>
 							</cms:pages>
@@ -127,10 +128,10 @@
 									</cms:pages>
 									
 					              	<div id="owl2">
-						                <cms:pages masterpage='ajax/staff.php'>
-							                <div class="item">
-							                	<a href="./staff.php?p=<cms:show k_page_id />" data-image="2" class="p2_button"><img src="<cms:show staff_image />" alt=""></a>
-							                </div>
+					              		<cms:pages masterpage='ajax/partner.php'>
+					              		<div class="item">
+											<a target="_blank" href="<cms:show partner_link />" data-image="1" class="p2_button"><img src="<cms:show partner_image />" alt=""></a>
+						                </div>
 						                </cms:pages>
 						             </div>
 								</div>
@@ -294,22 +295,22 @@
 						</div>
 						<div class="row pad_b_280">
 						<div class="col-lg-8 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-12 col-xs-12  mar_t_2 perspective">
-								<form id="form-1">
-							            <div class="success-message">Contact form submitted! We will be in touch soon.</div>
-							            <label class="name animateItem4">
-							              <input type="text" placeholder="Name:" class="form-control" data-constraints="@Required @Pattern(regex=/^[a-zA-Z'][a-zA-Z-' ]+[a-zA-Z']?$/)"/>
-							              <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span>
-							            </label>
-							            <label class="email animateItem5">
-							              <input type="email" placeholder="E-mail:" class="form-control" data-constraints="@Required @Email"/>
-							              <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
-							            </label>
-							            <label class="message animateItem6">
-							              <textarea placeholder="Message:" class="form-control" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-							              <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
-							            </label>
-							            <div class="btns animateItem7"><p><a href="#" class="btn btn-default btn-link btn-special form_b_1" data-type="reset">clear</a><a href="#" class="btn btn-default btn-link btn-special form_b_2" data-type="submit">send</a></p></div>
-							        </form>
+							<form id="form-1" action="mailto:hieunc@songphi.com" method="post">
+					            <div class="success-message">Trân trọng cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi sẽ gọi lại trong vòng 24 giờ.</div>
+					            <label class="name animateItem4">
+					              <input type="text" placeholder="Nhập tên bạn:" class="form-control" data-constraints="@Required @Pattern(regex=/^[a-zA-Z'][a-zA-Z-' ]+[a-zA-Z']?$/)"/>
+					              <span class="error">*Tên không dấu.</span> <span class="empty">*Tên không hợp lệ</span>
+					            </label>
+					            <label class="email animateItem5">
+					              <input type="email" placeholder="E-mail:" class="form-control" data-constraints="@Required @Email"/>
+					              <span class="error">*Email không được bỏ trống.</span> <span class="empty">*Email không hợp lệ.</span>
+					            </label>
+					            <label class="message animateItem6">
+					              <textarea placeholder="Nhập nội dung:" class="form-control" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+					              <span class="error">*Nội dung quá ngắn.</span> <span class="empty">*Nội dung không hợp lệ.</span>
+					            </label>
+					            <div class="btns animateItem7"><p><a href="#" class="btn btn-default btn-link btn-special form_b_1" data-type="reset">Làm lại</a><a href="hieunc@songphi.com" class="btn btn-default btn-link btn-special form_b_2" data-type="submit">Gửi</a></p></div>
+					        </form>
 						</div>
 						<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-12 col-xs-12  mar_t_2 perspective">
 						<div class="p6_block_1">
@@ -354,18 +355,20 @@
 	<footer>
 	<div class="container">
 	<div class="row bord">
-	 
+	 	<cms:editable name='footer' label='Footer' type='richtext'>
 		<div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-xs-12 ">
 			<p class="copyright">Agrogreet &copy; <span id="year1"></span> &bull; <a href="./privacy.html">Privacy Policy</a><br>More Agriculture Website Templates at <a rel="nofollow" href="http://www.templatemonster.com/category/agriculture-web-templates/" target="_blank">TemplateMonster.com</a></p>
 		</div>
-		
+		</cms:editable>
 		<div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-xs-12 ">
 		
+					
+					
 					<ul class="follow-links">
-			                <li><a href="#"><i class="fa-twitter"></i></a></li>
-			                <li><a href="#"><i class="fa-facebook"></i></a></li>
-			                <li><a href="#"><i class="fa-rss"></i></a></li>
-			                 <li><a href="#"><i class="fa-google-plus"></i></a></li>
+			                <li><a href="<cms:editable name='twitter' label='Twitter' type='text'></cms:editable>"><i class="fa-twitter"></i></a></li>
+			                <li><a href="<cms:editable name='facebook' label='Facebook' type='text'></cms:editable>"><i class="fa-facebook"></i></a></li>
+			                <li><a href="<cms:editable name='rss' label='Rss' type='text'></cms:editable>"><i class="fa-rss"></i></a></li>
+			                 <li><a href="<cms:editable name='google' label='Google plus' type='text'></cms:editable>"><i class="fa-google-plus"></i></a></li>
 					</ul>
 		</div>
 		
