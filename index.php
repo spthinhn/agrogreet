@@ -58,7 +58,7 @@
 					 <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0  col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12 tac perspective">
 					   			<!--logo and company name-->  
 				   		<cms:pages masterpage='logo.php' >
-							<h1><a href="./" class="navbar-brand">
+							<h1 style="left: 47%;"><a href="./" class="navbar-brand">
 								<img src="<cms:show logo_image />" alt="<cms:show logo_name />">
 								<span class="extra-wrap">
 								 	<span class="logo_slog"><cms:show logo_name /></span>
@@ -248,9 +248,9 @@
 			                		<div class="container">
 			                		 <div class="row">
 				                		 <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0  col-sm-offset-0 col-sm-12 col-xs-offset-0 col-xs-12 tac">
-				                		 <div class="p5_pic"><img src="<cms:show staff_image />" alt=""></div>
+				                		 <div class="p5_pic"><a href="./staff.php?p=<cms:show k_page_id />"><img src="<cms:show staff_image />" alt=""></a></div>
 				                		 <p class="p2">“</p>
-				                		 <cms:show staff_content />
+				                		 <cms:show staff_introduce />
 										<div class="author"><cms:show k_page_title /></div>
 				                		 </div>
 			                		 </div>

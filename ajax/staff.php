@@ -1,5 +1,6 @@
 <?php require_once( '../spadministrator/cms.php' ); ?>
 <cms:template title='Introduce' clonable='1' >
+	<cms:editable name='staff_introduce' label='Introduce' type='richtext' />
 	<cms:editable name='staff_content' label='Content' type='richtext' />
 	<cms:editable name='staff_image' label='Image'
 		width='147' 
