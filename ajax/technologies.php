@@ -15,16 +15,19 @@
 	<title>Read More</title>
 </head>
 <body>
-<div class="bgHolder">
+<div class="bgHolder" style="background-image: url('img/products_bg.jpg');background-size: cover">
 				<div class="bg7"></div>
 			</div>
-	<div class="container mar_t_20 pad_b_m_5">
+	<div class="container mar_t_20 pad_b_m_5" >
 		<div class="row">
+		
 			<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 tac mar_t_15">
 				<a href="./" class="closeIcon historyBack"></a>
 				<h2><cms:show k_page_title /></h2>
 				<h3><cms:show technology_sologan /></h3>
- 				<cms:show technology_content />
+				<div style="text-align: left">
+ 					<cms:show technology_content />
+				</div>
 			</div>
 		</div>
 	</div>  

@@ -42,13 +42,10 @@
 						<cms:pages masterpage='navigator.php'>	
 							<cms:show navigator />
 						</cms:pages>
-						
+
 						<a style="float:right" href="//<cms:php >
 						echo $_SERVER['SERVER_NAME'];
-						</cms:php>"><img width="50px" src="img/vi.gif" /></a>
-						<a style="float:right" href="//<cms:php >
-						echo $_SERVER['SERVER_NAME'];
-						</cms:php>/en"/><img width="50px" src="img/us.gif" /></a>
+						</cms:php>/en"/><img src="img/us.png" /></a>
 						
 					</nav>
 					<div class="clear"></div>

@@ -11,7 +11,7 @@
 	<title>Read More</title>
 </head>
 <body>
-<div class="bgHolder">
+<div class="bgHolder" style="background-image: url('img/products_bg.jpg');background-size: cover">
 	<div class="bg7"></div>
 </div>
 	<div class="container mar_t_20 pad_b_m_5">

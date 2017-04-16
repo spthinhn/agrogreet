@@ -45,10 +45,8 @@
 
 						<a style="float:right" href="//<cms:php >
 						echo $_SERVER['SERVER_NAME'];
-						</cms:php>"><img width="50px" src="img/vi.gif" /></a>
-						<a style="float:right" href="//<cms:php >
-						echo $_SERVER['SERVER_NAME'];
-						</cms:php>/en"/><img width="50px" src="img/us.gif" /></a>
+						</cms:php>"><img src="img/vn.png" /></a>
+				
 					</nav>
 					<div class="clear"></div>
 				</div>
