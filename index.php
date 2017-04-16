@@ -20,6 +20,7 @@
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/core.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
 	
 
 	<!--[if lt IE 9]>
@@ -41,6 +42,14 @@
 						<cms:pages masterpage='navigator.php'>	
 							<cms:show navigator />
 						</cms:pages>
+						
+						<a style="float:right" href="//<cms:php >
+						echo $_SERVER['SERVER_NAME'];
+						</cms:php>"><img width="50px" src="img/vi.gif" /></a>
+						<a style="float:right" href="//<cms:php >
+						echo $_SERVER['SERVER_NAME'];
+						</cms:php>/en"/><img width="50px" src="img/us.gif" /></a>
+						
 					</nav>
 					<div class="clear"></div>
 				</div>
@@ -93,8 +102,8 @@
 			</div>
 			
 		</div>
-
 		<div data-id="about" id="page2" class=''>
+			<a name="about"></a>
 			<div id="page2_bg"  data-stellar-background-ratio="-0.1">
 		 
 									<div class="container">
@@ -143,7 +152,7 @@
 		</div>
 		<div data-id="products" id="page3" class=''>
 		<div id="page3_bg"   data-stellar-background-ratio="-0.6">
-
+			<a name="products"></a>
 				<div class='pad_page3'>
 				<div class="p3_plane ">
 					<div class="p3_block_1 perspective">
@@ -163,19 +172,19 @@
 <!-- desktop-gallery -->
 						<div class="car_div mar_t_2 desktop-only">
 			              	<div id="owl1">
-			              	<cms:pages masterpage='ajax/products.php' >
-				                <div class="item">
-		                            <div class="box">
-		                        			<div class="circ">
-		                            			<span><cms:show k_page_title /></span>
-		                            		</div>
-		                        			<a href="./products.php" data-image="0" class=""><img src="<cms:show product_thumb />" alt=""></a>
-		                        	</div>
-				                </div>
-			              	</cms:pages>
+				              	<cms:pages masterpage='ajax/products.php' >
+					                <div class="item">
+			                            <div class="box">
+			                        			<div class="circ">
+			                            			<span><cms:show k_page_title /></span>
+			                            		</div>
+			                        			<a href="./products.php?p=<cms:show k_page_id />" data-image="0" class=""><img src="<cms:show product_thumb />" alt=""></a>
+			                        	</div>
+					                </div>
+				              	</cms:pages>
 				               
 			                </div>
-			               </div>
+		               	</div>
 			                <div class="clear"></div>
 <!-- mobile_gallery -->
 			            <div class="car_div mar_t_2 mobile-only">
@@ -186,7 +195,7 @@
 			                        			<div class="circ">
 			                            			<span><cms:show k_page_title /></span>
 			                            		</div>
-			                        			<a href="./products.php" data-image="0" class=""><img src="<cms:show product_thumb />" alt=""></a>
+			                        			<a href="./products.php?p=<cms:show k_page_id />" data-image="0" class=""><img src="<cms:show product_thumb />" alt=""></a>
 			                        	</div>
 					                </div>
 				              	</cms:pages>
