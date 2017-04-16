@@ -81,9 +81,7 @@
 					</ul>
 				</div>
 				<ul class="galleryDiscription">
-					<li>
-						<a href="http://google.com" target="_blank" >Google</a>
-					</li>
+					
 				</ul>
 			</div>
 			<!-- end fullscreen gallery -->

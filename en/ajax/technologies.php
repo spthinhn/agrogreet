@@ -7,6 +7,7 @@
 		type='image' 
 	/>
 </cms:template>
+<cms:if k_is_page >
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,7 +18,6 @@
 <div class="bgHolder">
 				<div class="bg7"></div>
 			</div>
-	<cms:pages masterpage='ajax/technologies.php' >
 	<div class="container mar_t_20 pad_b_m_5">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 tac mar_t_15">
@@ -28,7 +28,7 @@
 			</div>
 		</div>
 	</div>  
-	</cms:pages>
 </body>
 </html>
+</cms:if >
 <?php COUCH::invoke(); ?>
