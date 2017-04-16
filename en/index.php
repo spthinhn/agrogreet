@@ -177,7 +177,7 @@
 		                        			<div class="circ">
 		                            			<span><cms:show k_page_title /></span>
 		                            		</div>
-		                        			<a href="./products.php" data-image="0" class=""><img src="<cms:show product_thumb />" alt=""></a>
+		                        			<a href="./products.php?p=<cms:show k_page_id />" data-image="0" class=""><img src="<cms:show product_thumb />" alt=""></a>
 		                        	</div>
 				                </div>
 			              	</cms:pages>
