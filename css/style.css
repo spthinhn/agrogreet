@@ -79,7 +79,7 @@ body.show-sub-pages.galleryOpen header {
   background: #2b1a2a;
 }
 p {
-  font: 400 13px/20px "Trebuchet MS", Helvetica, sans-serif;
+  font: 400 13px/20px "Time new roman";
   color: #ffffff;
   letter-spacing: 1px;
   margin: 0;
@@ -98,21 +98,21 @@ p span {
   color: #757575;
 }
 .p1 {
-  font: 700 38px/48px 'Raleway', sans-serif;
+  font: 700 38px/48px 'Time new roman';
   letter-spacing: 4px;
   color: #f8f6e7 !important;
   display: inline-block;
   text-transform: none;
 }
 .p2 {
-  font: 700 72px/36px 'Raleway', sans-serif;
+  font: 700 72px/36px 'Time new roman';
   text-transform: uppercase;
   display: inline-block;
   color: #ffffff;
   margin: 0px;
 }
 .p3 {
-  font: 700 24px/34px 'Raleway', sans-serif;
+  font: 700 24px/34px 'Time new roman';
   text-transform: none;
   display: inline-block;
   color: #2b1a2a;
@@ -145,7 +145,7 @@ h1 .navbar-brand {
   display: inline-block;
 }
 h1 span {
-  font: 400 112px/112px 'Inder', sans-serif !important;
+  font: 400 112px/112px 'Time new roman';
   letter-spacing: 10px;
   margin: 0;
   padding: 0;
@@ -155,7 +155,7 @@ h1 span {
   color: #f8f6e7;
 }
 h1 em {
-  font: 400 20px/20px "Trebuchet MS", Helvetica, sans-serif !important;
+  font: 400 20px/20px "Time new roman";
   letter-spacing: 3px;
   margin: 0;
   padding: 0;
@@ -165,7 +165,7 @@ h1 em {
   opacity: 0.7;
 }
 h2 {
-  font: 800 38px/48px 'Raleway', sans-serif;
+  font: 800 38px/48px 'Time new roman';
   color: #f8f6e7;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -174,7 +174,7 @@ h2 {
   margin-top: 30px;
 }
 h3 {
-  font: normal 20px/30px "Trebuchet MS", Helvetica, sans-serif;
+  font: normal 20px/30px "Time new roman";
   color: #f8f6e7;
   text-transform: none;
   letter-spacing: 2px;
@@ -185,7 +185,7 @@ h3 span {
   color: #6d6a6d;
 }
 h4 {
-  font: 700 30px/34px 'Raleway', sans-serif;
+  font: 700 30px/34px 'Time new roman';
   color: #2b1a2a;
   letter-spacing: 3px;
   text-transform: none;
@@ -204,7 +204,7 @@ h4 > a:hover {
   text-decoration: none;
 }
 h5 {
-  font: 800 20px/24px 'Raleway', sans-serif;
+  font: 800 20px/24px 'Time new roman';
   color: #f8f6e7;
   letter-spacing: 2px;
   text-transform: none;
@@ -217,7 +217,7 @@ h5 span {
   color: #ffffff;
 }
 h6 {
-  font: 800 18px/24px "Trebuchet MS", Helvetica, sans-serif;
+  font: 800 18px/24px "Time new roman";
   color: #f8f6e7;
   letter-spacing: 2px;
   text-transform: none;
@@ -310,7 +310,7 @@ h6 {
 }
 .box .circ span {
   text-align: left;
-  font: 800 18px/24px 'Raleway', sans-serif;
+  font: 800 18px/24px 'Time new roman';
   letter-spacing: 2px;
   color: #ffffff;
   margin-left: 50px;
@@ -521,7 +521,7 @@ h6 {
   right: 0;
 }
 .title {
-  font: 400 33px/40px 'Inder', sans-serif;
+  font: 400 33px/40px 'Time new roman';
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
@@ -907,7 +907,7 @@ h6 {
   width: 260px;
   display: inline-block;
   text-align: center;
-  font: 700 18px/18px "Trebuchet MS", Helvetica, sans-serif;
+  font: 700 18px/18px "Time new roman";
   position: relative;
   letter-spacing: 2px;
   color: #2b1a2a;
@@ -1184,7 +1184,7 @@ h6 {
   text-align: center;
 }
 .galleryDiscription li p.info {
-  font: 300 13px/18px 'Inder', sans-serif;
+  font: 300 13px/18px 'Time new roman';
   font-style: italic;
   color: #ffffff;
   text-transform: none;
@@ -1276,7 +1276,7 @@ header .head_bg {
 .mainNav > ul > li a > div span {
   position: relative;
   display: block;
-  font: normal 20px/20px "Trebuchet MS", Helvetica, sans-serif;
+  font: normal 20px/20px "Time new roman";
   letter-spacing: 2px;
   color: #f8f6e7;
   text-transform: none;
@@ -1340,7 +1340,7 @@ header .head_bg {
 .mainNav > ul > li .sf-mega ul li a {
   position: relative;
   display: inline-block;
-  font: normal 15px/15px "Trebuchet MS", Helvetica, sans-serif;
+  font: normal 15px/15px "Time new roman";
   text-transform: none;
   color: #ffffff;
   margin-top: 12px;
@@ -1405,7 +1405,7 @@ footer .bord {
   border-top: 1px solid #716e71;
 }
 .copyright {
-  font: 400 13px/1em "Trebuchet MS", Helvetica, sans-serif;
+  font: 400 13px/1em "Time new roman";
   color: #f8f6e7;
   text-transform: none;
   margin: 0;
@@ -1592,7 +1592,7 @@ footer .bord {
 #content .p4_block_2 a,
 #content .p4_block_3 a,
 #content .p4_block_4 a {
-  font: 700 12px/20px "Trebuchet MS", Helvetica, sans-serif;
+  font: 700 12px/20px "Time new roman";
   letter-spacing: 1px;
   font-style: italic;
   display: inline-block;
@@ -1726,7 +1726,7 @@ footer .bord {
   border-radius: none;
   border: none;
   box-shadow: none;
-  font: 800 14px/14px 'Raleway', sans-serif;
+  font: 800 14px/14px 'Time new roman';
   letter-spacing: 2px;
   color: #ffffff;
   text-transform: uppercase;
@@ -1788,7 +1788,7 @@ footer .bord {
 }
 /* rewrite bootstrap classes */
 .btn {
-  font: normal 20px/20px 'Inder', sans-serif;
+  font: normal 20px/20px 'Time new roman';
   color: #ffffff;
   text-transform: uppercase;
   padding: 0;
@@ -1838,7 +1838,7 @@ footer .bord {
 }
 .link_1 {
   position: relative;
-  font: 18px/18px 'Inder', sans-serif;
+  font: 18px/18px 'Time new roman';
   font-style: italic;
   text-transform: none;
   letter-spacing: 1px;
@@ -1853,7 +1853,7 @@ footer .bord {
 }
 .link_2 {
   position: relative;
-  font: 18px/18px 'Inder', sans-serif;
+  font: 18px/18px 'Time new roman';
   text-transform: none;
   letter-spacing: 1px;
   color: #ffffff;
@@ -1886,7 +1886,7 @@ em {
   border: none;
 }
 .list_1 li time {
-  font: 60px/60px 'Inder', sans-serif;
+  font: 60px/60px 'Time new roman';
   color: #e76d7c;
   display: inline-block;
   float: left;
@@ -1900,7 +1900,7 @@ em {
 }
 .list_1 li div a {
   display: inline-block;
-  font: 300 20px/20px 'Inder', sans-serif;
+  font: 300 20px/20px 'Time new roman';
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
@@ -1910,7 +1910,7 @@ em {
 }
 .list_1 li div a span {
   display: inline-block;
-  font: 300 14px/22px 'Inder', sans-serif;
+  font: 300 14px/22px 'Time new roman';
   color: #bd7fa2;
   text-transform: none;
 }
@@ -1932,7 +1932,7 @@ em {
 }
 .list_2 li span {
   width: 37%;
-  font: 18px/18px 'Inder', sans-serif;
+  font: 18px/18px 'Time new roman';
   color: #ffffff;
   text-transform: uppercase;
   padding: 11px 0 11px 30px;
@@ -1943,7 +1943,7 @@ em {
 }
 .list_2 li em {
   width: 63%;
-  font: 18px/18px 'Inder', sans-serif;
+  font: 18px/18px 'Time new roman';
   font-style: normal;
   color: #ffffff;
   text-transform: uppercase;
@@ -2081,7 +2081,7 @@ em {
   color: #bd7fa2;
 }
 .gall .text_info .title a {
-  font: 400 33px/40px 'Inder', sans-serif;
+  font: 400 33px/40px 'Time new roman';
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
@@ -2112,7 +2112,7 @@ em {
   height: 98px;
   border-radius: 500px;
   background: #757575;
-  font: 500 18px/1em 'Ubuntu', sans-serif;
+  font: 500 18px/1em 'Time new roman';
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
@@ -2122,7 +2122,7 @@ em {
 .news .badge span {
   position: relative;
   display: block;
-  font: 400 64px/56px 'Ubuntu', sans-serif;
+  font: 400 64px/56px 'Time new roman';
 }
 .news p {
   margin-bottom: 31px;
@@ -2170,7 +2170,7 @@ em {
   border-radius: 0;
   border: none;
   color: #ffffff;
-  font: 13px/26px "Trebuchet MS", Helvetica, sans-serif;
+  font: 13px/26px 'Time new roman';
   width: 100%;
   height: 40px;
   padding: 12px 10px;
@@ -2188,7 +2188,7 @@ em {
   box-shadow: 0 0 0;
   color: #ffffff !important;
   background: #2b1a2a;
-  font: 13px/26px "Trebuchet MS", Helvetica, sans-serif;
+  font: 13px/26px 'Time new roman';
   border: 2px solid #ffffff;
 }
 #search .form-control {
@@ -2225,7 +2225,7 @@ em {
   height: 96px;
   text-align: center;
   padding: 32px 10px;
-  font: 400 20px "Trebuchet MS", Helvetica, sans-serif;
+  font: 400 20px 'Time new roman';
   line-height: 30px;
   color: #2b1a2a;
   background: #ffe775;
@@ -2238,7 +2238,7 @@ em {
   left: 0;
   top: 0;
   cursor: text;
-  font: 400 13px "Trebuchet MS", Helvetica, sans-serif;
+  font: 400 13px 'Time new roman';
   line-height: 40px;
   color: #ffffff !important;
   width: 100%;
@@ -2391,7 +2391,7 @@ em {
   border-radius: none;
   border: none;
   box-shadow: none;
-  font: 800 14px/14px 'Raleway', sans-serif;
+  font: 800 14px/14px 'Time new roman';
   letter-spacing: 2px;
   color: #ffffff;
   text-transform: uppercase;
@@ -2470,11 +2470,11 @@ em {
     transform: scale(0.6);
   }
   h1 .logo_slog {
-    font: 400 112px/112px 'Inder', sans-serif !important;
+    font: 400 112px/112px 'Time new roman';
     letter-spacing: 10px;
   }
   h1 em {
-    font: 400 20px/20px "Trebuchet MS", Helvetica, sans-serif !important;
+    font: 400 20px/20px 'Time new roman';
     letter-spacing: 3px;
   }
 }
@@ -2541,7 +2541,7 @@ html.ipad .mainNav > ul > li a > div:first-child + div {
   top: -100px;
 }
 html.ipad .mainNav > ul > li a > div span {
-  font: normal 15px/15px "Trebuchet MS", Helvetica, sans-serif;
+  font: normal 15px/15px 'Time new roman';
   letter-spacing: 1px;
   padding: 15px 5px;
 }
@@ -2583,7 +2583,7 @@ html.ipad .mainNav > ul > li .sf-mega ul li {
   height: 30px;
 }
 html.ipad .mainNav > ul > li .sf-mega ul li a {
-  font: normal 15px/15px "Trebuchet MS", Helvetica, sans-serif;
+  font: normal 15px/15px 'Time new roman';
   margin-top: 7px;
   height: 15px;
 }
@@ -2625,11 +2625,11 @@ html.tablet #content .p6_block_3 {
   margin-bottom: 50px;
 }
 html.tablet h2 {
-  font: 800 28px/35px 'Raleway', sans-serif;
+  font: 800 28px/35px 'Time new roman';
   letter-spacing: 2px;
 }
 html.tablet h4 {
-  font: 700 20px/27px 'Raleway', sans-serif;
+  font: 700 20px/27px 'Time new roman';
   color: #2b1a2a;
   letter-spacing: 2px;
   padding-bottom: 15px;
@@ -2649,11 +2649,11 @@ html.tablet #camera_wrap_1 .camera_pag {
   bottom: 90px;
 }
 html.tablet .p1 {
-  font: 700 25px/35px 'Raleway', sans-serif;
+  font: 700 25px/35px 'Time new roman';
   letter-spacing: 3px;
 }
 html.tablet .p3 {
-  font: 700 20px/30px 'Raleway', sans-serif;
+  font: 700 20px/30px 'Time new roman';
   margin-top: -20px;
 }
 html.tablet .author {
@@ -2669,11 +2669,11 @@ html.tablet h1 {
   margin-left: -180px;
 }
 html.tablet h1 .logo_slog {
-  font: 400 60px/60px 'Inder', sans-serif !important;
+  font: 400 60px/60px 'Inder';
   letter-spacing: 5px;
 }
 html.tablet h1 em {
-  font: 400 20px/20px "Trebuchet MS", Helvetica, sans-serif !important;
+  font: 400 20px/20px 'Time new roman';
   letter-spacing: 3px;
 }
 html.tablet .mainNav {
@@ -2689,7 +2689,7 @@ html.tablet .mainNav > ul > li a > div:first-child + div {
   top: -100px;
 }
 html.tablet .mainNav > ul > li a > div span {
-  font: normal 15px/15px "Trebuchet MS", Helvetica, sans-serif;
+  font: normal 15px/15px 'Time new roman';
   letter-spacing: 1px;
   padding: 15px 5px;
 }
@@ -2731,7 +2731,7 @@ html.tablet .mainNav > ul > li .sf-mega ul li {
   height: 30px;
 }
 html.tablet .mainNav > ul > li .sf-mega ul li a {
-  font: normal 15px/15px "Trebuchet MS", Helvetica, sans-serif;
+  font: normal 15px/15px 'Time new roman';
   margin-top: 7px;
   height: 15px;
 }
@@ -2807,7 +2807,7 @@ html.tablet #owl1 .owl-controls {
     position: relative;
   }
   html.tablet.android h4 {
-    font: 700 17px/22px 'Raleway', sans-serif;
+    font: 700 17px/22px 'Time new roman';
     color: #2b1a2a;
     letter-spacing: 1px;
     padding-bottom: 15px;
@@ -2854,7 +2854,7 @@ html.tablet #owl1 .owl-controls {
     margin-top: 20px;
   }
   html.tablet.android .p1 {
-    font: 700 15px/25px 'Raleway', sans-serif;
+    font: 700 15px/25px 'Time new roman';
     letter-spacing: 2px;
   }
   html.tablet.android #camera_wrap .caption {
@@ -2887,7 +2887,7 @@ html.tablet #owl1 .owl-controls {
     top: -100px;
   }
   html.tablet.android .mainNav > ul > li a > div span {
-    font: normal 12px/12px "Trebuchet MS", Helvetica, sans-serif;
+    font: normal 12px/12px 'Time new roman';
     letter-spacing: 0px;
     padding: 15px 5px;
   }
@@ -2929,7 +2929,7 @@ html.tablet #owl1 .owl-controls {
     height: 30px;
   }
   html.tablet.android .mainNav > ul > li .sf-mega ul li a {
-    font: normal 15px/15px "Trebuchet MS", Helvetica, sans-serif;
+    font: normal 15px/15px 'Time new roman';
     margin-top: 7px;
     height: 15px;
   }
@@ -2952,7 +2952,7 @@ html.mobile #camera_wrap_1 .camera_pag {
 }
 html.mobile .author {
   width: 260px;
-  font: 700 18px/18px "Trebuchet MS", Helvetica, sans-serif;
+  font: 700 18px/18px 'Time new roman';
   letter-spacing: 1px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -2962,11 +2962,11 @@ html.mobile .camera_wrap {
   height: 650px !important;
 }
 html.mobile .p3 {
-  font: 700 14px/20px 'Raleway', sans-serif;
+  font: 700 14px/20px 'Time new roman';
   margin-top: -20px;
 }
 html.mobile h6 {
-  font: 800 12px/16px "Trebuchet MS", Helvetica, sans-serif;
+  font: 800 12px/16px 'Time new roman';
   color: #f8f6e7;
   letter-spacing: 2px;
 }
@@ -3096,7 +3096,7 @@ html.mobile .p4_block_1 a,
 html.mobile .p4_block_2 a,
 html.mobile .p4_block_3 a,
 html.mobile .p4_block_4 a {
-  font: 700 12px/20px "Trebuchet MS", Helvetica, sans-serif;
+  font: 700 12px/20px 'Time new roman';
   letter-spacing: 1px;
   font-style: italic;
   display: inline-block;
@@ -3114,7 +3114,7 @@ html.mobile .p4_block_4 a:hover {
   text-decoration: none;
 }
 html.mobile h4 {
-  font: 700 17px/22px 'Raleway', sans-serif;
+  font: 700 17px/22px 'Time new roman';
   color: #2b1a2a;
   letter-spacing: 1px;
   padding-bottom: 15px;
@@ -3268,27 +3268,28 @@ html.mobile h1 {
   transform: scale(0.4);
 }
 html.mobile h1 .logo_slog {
-  font: 400 72px/102px 'Inder', sans-serif !important;
+  font: 400 72px/102px 'Inder';
   letter-spacing: 5px;
+  font-family: "Time new roman";
 }
 html.mobile h1 em {
-  font: 400 30px/40px "Trebuchet MS", Helvetica, sans-serif !important;
+  font: 400 30px/40px 'Time new roman';
   letter-spacing: 3px;
 }
 html.mobile h1 .navbar-brand {
   text-align: center;
 }
 html.mobile h2 {
-  font: 800 17px/25px 'Raleway', sans-serif;
+  font: 800 17px/25px 'Time new roman';
   margin-top: 15px;
   letter-spacing: 1px;
 }
 html.mobile h3 {
-  font: normal 15px/20px "Trebuchet MS", Helvetica, sans-serif;
+  font: normal 15px/20px 'Time new roman';
   letter-spacing: 1px;
 }
 html.mobile h4 {
-  font: 700 17px/22px 'Raleway', sans-serif;
+  font: 700 17px/22px 'Time new roman';
   letter-spacing: 2px;
   padding-bottom: 15px;
 }
@@ -3381,3 +3382,6 @@ html.mobile #mobile-wrap #mobile-footer .follow-links > li > a {
 /*Core variables and mixins*/
 /* 3d mixins */
 /* end 3d mixins */
+#mainNav ul li a div span {
+  font-family: "Time new roman"
+}
